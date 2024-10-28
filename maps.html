@@ -1,0 +1,20 @@
+const dogs = ["Labrador", "Beagle", "Poodle", "Pug", "Chihuahua"];
+
+const doggieWalks = dogs.forEach((dogName) => {
+    return "The " + dogName + " needs to go for a walk!";
+});
+
+Task 1:
+console.log(doggieWalks);
+
+Task 2:
+const mappedDoggieWalks = dogs.map((dogName) => {
+    return "The " + dogName + " needs to go for a walk!";
+});
+console.log(mappedDoggieWalks);
+
+Task 3:
+const shoutyDogNames = dogs.map((dogName) => {
+    return dogName.toUpperCase();
+});
+console.log(shoutyDogNames);
