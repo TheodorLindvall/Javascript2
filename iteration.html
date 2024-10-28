@@ -1,0 +1,19 @@
+const dogs = ["Labrador", "Beagle", "Poodle", "Pug", "Chihuahua"];
+
+Function provided: printDogName
+const printDogName = (dogName) => {
+    console.log("The " + dogName + " barks.");
+}
+
+Task 1: 
+dogs.forEach(printDogName);
+
+Task 2:
+const printDogNameUppercase = (dogName) => {
+    console.log("THE " + dogName.toUpperCase() + " BARKS.");
+}
+dogs.forEach(printDogNameUppercase);
+
+Task 3:
+dogs.forEach((dogName) => {
+    console.log("The " + dogName + " needs to go for a walk!");
